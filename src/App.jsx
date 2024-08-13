@@ -1,11 +1,12 @@
+import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
 // Component
-import Heading from './components/Heading';
+// import Heading from './components/Heading';
 import Card from './components/Card';
 
-const App = () => {
+function App() {
   return (
     <div className="App">
       <h1>Task: Add three Card elements</h1>
@@ -14,6 +15,6 @@ const App = () => {
       <Card h2="Third card's h2" h3="Third card's h3" />
     </div>
   );
-};
+}
 
 export default App;
