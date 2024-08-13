@@ -6,7 +6,7 @@ import './App.css';
 // import Heading from './components/Heading';
 import Card from './components/Card';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <h1>Task: Add three Card elements</h1>
@@ -15,6 +15,6 @@ function App() {
       <Card h2="Third card's h2" h3="Third card's h3" />
     </div>
   );
-}
+};
 
 export default App;

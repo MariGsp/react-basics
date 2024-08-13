@@ -14,8 +14,15 @@
     "react/prefer-stateless-function": 1,
     "react/jsx-no-bind": [0, {
       "ignoreRefs": false,
-      "allowArrowFunctions": false,
+      "allowArrowFunctions": true,
       "allowBind": true
-    }]
+    }],
+    "react/function-component-definition": [
+  2,
+  {
+    "namedComponents": "arrow-function",
+    "unnamedComponents": "arrow-function"
+  }
+]
   }
 }
