@@ -1,5 +1,7 @@
+import React from 'react';
+
 const Footer = () => {
-  return(
+  return (
     <div className="copyright">
       <p>Made with love by myself</p>
     </div>

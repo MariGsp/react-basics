@@ -1,8 +1,10 @@
+import React from 'react';
+
 const Nav = (props) => {
-  return(
+  return (
     <nav className="main-nav">
       <ul>
-        <li>Home</li> 
+        <li>Home</li>
         <li>Articles</li>
         <li>About</li>
         <li>Contact</li>
