@@ -9,9 +9,7 @@ const Heading = () => {
   return (
     <div className="App-header">
       <h1 style={headingStyle}>
-        Hello,
-        {/* {props.firstName} */}
-        !
+        Hello!
       </h1>
     </div>
   );

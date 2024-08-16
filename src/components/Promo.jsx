@@ -1,14 +1,19 @@
 import React from 'react';
 
-const Promo = () => {
+import PromoHeading from './PromoHeading';
+
+const data = {
+  heading: '99% off all items!',
+  callToAction: 'Everything must go!',
+};
+
+const Promo = () => { // parent component, PromoHeading is the child component
   return (
-    <div className="promo-section">
-      <div>
-        <h1>Do not miss this deal!</h1>
-      </div>
-      <div>
-        <h2>Subscribe to my newsletter and get all the shop items at 50% off!</h2>
-      </div>
+    <div>
+      <PromoHeading
+        heading={data.heading}
+        callToAction={data.callToAction}
+      />
     </div>
   );
 };
