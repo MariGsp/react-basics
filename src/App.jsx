@@ -7,6 +7,7 @@ import './App.css';
 import Card from './components/Card';
 import Button from './components/Button';
 import ModeToggler from './components/ModeToggler';
+import NumberGuess from './components/NumberGuess';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Card h2="Third card's h2" h3="Third card's h3" />
       <Button />
       <ModeToggler />
+      <NumberGuess />
     </div>
   );
 };
