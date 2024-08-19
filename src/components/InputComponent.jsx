@@ -1,4 +1,3 @@
-/* eslint-disable no-trailing-spaces */
 import { useState } from 'react';
 
 const InputComponent = () => {
