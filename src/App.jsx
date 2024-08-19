@@ -1,16 +1,16 @@
-import React from 'react';
+// import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
 // Component
 import Heading from './components/Heading';
-import Promo from './components/Promo';
+import InputComponent from './components/InputComponent';
 
 const App = () => {
   return (
     <div>
       <Heading />
-      <Promo />
+      <InputComponent />
     </div>
   );
 };
