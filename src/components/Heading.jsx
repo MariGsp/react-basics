@@ -1,6 +1,6 @@
 const Heading = () => {
   const headingStyle = {
-    color: 'tomato',
+    color: 'salmon',
     fontSize: '50px',
   };
 

@@ -9,14 +9,13 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: salmon;
 }
 
-.blog-post-intro{
+.blog-post{
   padding: 20px;
   display: contents;
-  background-color: bisque;
-
+  color: hotpink;
 }
 
 .copyright {
