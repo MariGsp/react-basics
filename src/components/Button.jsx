@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Button = () => {
   // eslint-disable-next-line no-console
   const clickHandler = () => console.log('clicked');

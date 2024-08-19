@@ -1,6 +1,3 @@
-/* eslint-disable react/button-has-type */
-import React from 'react';
-
 const ModeToggler = () => {
   let darkModeOn = true;
   const darkMode = <h1>Dark mode is on</h1>;
@@ -18,7 +15,7 @@ const ModeToggler = () => {
   return (
     <div>
       {darkModeOn ? darkMode : lightMode}
-      <button onClick={handleClick}>
+      <button type="button" onClick={handleClick}>
         Click me!
       </button>
     </div>

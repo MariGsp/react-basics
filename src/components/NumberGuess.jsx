@@ -1,8 +1,6 @@
 /* eslint-disable no-console */
 /* eslint-disable no-undef */
 /* eslint-disable no-alert */
-/* eslint-disable react/button-has-type */
-import React from 'react';
 
 const NumberGuess = () => {
   const handleClick = () => {
@@ -15,7 +13,7 @@ const NumberGuess = () => {
   return (
     <div>
       <h1>Task: Add a button and handle a click event</h1>
-      <button onClick={handleClick}>Guess the number between 1 and 3</button>
+      <button type="button" onClick={handleClick}>Guess the number between 1 and 3</button>
     </div>
   );
 };

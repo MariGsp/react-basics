@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Intro2 = () => {
   return (
     <div className="blog-post-intro">

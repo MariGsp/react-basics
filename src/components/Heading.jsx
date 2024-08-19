@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Heading = () => {
   const headingStyle = {
     color: 'tomato',
