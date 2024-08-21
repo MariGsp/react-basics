@@ -1,3 +1,4 @@
+/* eslint-disable no-shadow */
 import { useRef, useState } from 'react';
 import './App.css';
 
@@ -12,23 +13,28 @@ const App = () => {
   }
 
   function minus(e) {
-  	// Add the code for the minus function
+    e.preventDefault();
+    setResult((result) => result - Number(inputRef.current.value));
   }
 
   function times(e) {
-    // Add the code for the plus function
+    e.preventDefault();
+    setResult((result) => result * Number(inputRef.current.value));
   }
 
   function divide(e) {
-    // Add the code for the divide function
+    e.preventDefault();
+    setResult((result) => result / Number(inputRef.current.value));
   }
 
   function resetInput(e) {
-    // Add the code for the resetInput function
+    e.preventDefault();
+    inputRef.current.value = 0;
   }
 
   function resetResult(e) {
-  	// Add the code for the resetResult function
+    e.preventDefault();
+    setResult(0);
   }
 
   return (
@@ -38,7 +44,7 @@ const App = () => {
       </div>
       <form>
         <p ref={resultRef}>
-          {/* add the value of the current total */}
+          {result}
         </p>
         <input
           pattern="[0-9]"
@@ -47,11 +53,11 @@ const App = () => {
           placeholder="Type a number"
         />
         <button onClick={plus} type="button">add</button>
-        {/* Add the subtract button */}
-        {/* Add the multiply button */}
-        {/* Add the divide button */}
-        {/* Add the resetInput button */}
-        {/* Add the resetResult button */}
+        <button onClick={minus} type="button">subtract</button>
+        <button onClick={times} type="button">multiply</button>
+        <button onClick={divide} type="button">divide</button>
+        <button onClick={resetInput} type="button">reset input</button>
+        <button onClick={resetResult} type="button">reset result</button>
       </form>
     </div>
   );
