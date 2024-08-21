@@ -14,7 +14,7 @@ const App = () => {
 
 const MyVideo = () => {
   return (
-    <ReactPlayer url="https://www.youtube.com/watch?v=iGGHKq8kXTs" />
+    <ReactPlayer url="https://www.youtube.com/watch?v=iGGHKq8kXTs" playing={false} volume={0.5} />
   );
 };
 
