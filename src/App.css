@@ -11,3 +11,18 @@ nav a {
     font-size: 20px;
     margin-right: 20px;
 }
+
+button {
+    margin: 10px;
+    border-radius: 5px;
+    border: salmon solid 2px;
+    width:fit-content;
+    height: fit-content;
+    padding: 5px;
+    background-color: bisque;
+    
+}
+
+h1, button, p {
+    margin-left: 10px;
+}
